@@ -1,0 +1,11 @@
+{:deps true
+
+ :builds       {:app {:target     :browser
+                      :output-dir "public/js"
+                      :asset-path "/js"
+                      :modules    {:app {:entries [cljs-r3f-example.core]
+                                         :init-fn cljs-r3f-example.core/init!}}
+                      :devtools   {:after-load cljs-r3f-example.core/update!}}}
+
+ :dev-http     {3303 {:root    "public"
+                      :handler user/app}}}
