@@ -7,15 +7,14 @@
    ["./../../shaders/Backface.js" :default BackfaceMaterial]
    ["./../../shaders/Refraction.js" :default RefractionMaterial]
    ["react" :refer [Suspense]]
-   [reagent.dom :as rdom]
    ["@react-three/drei" :refer [Box Sphere OrbitControls useTexture useGLTF]]
    ["three" :refer [LinearFilter WebGLRenderTarget Object3D]]
    ["react-three-fiber" :refer [Canvas useFrame useThree]]))
 
 ; -- constants --------------------------------------------------------------------------------------------------------------
 
-(def texture-url "/images/backdrop.jpg")
-(def diamond-url "/models/demo/diamond.glb")
+(def texture-url "images/backdrop.jpg")
+(def diamond-url "models/demo/diamond.glb")
 
 (def aspect-height 3800)
 (def aspect-width 5000)
