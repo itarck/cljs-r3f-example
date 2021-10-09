@@ -28,13 +28,13 @@
    [:ul
     [:li [:a {:href (rfe/href :box-page)} "box: just a box"]]
     [:li [:a {:href (rfe/href :gltf-planet-page)} "planet: gltf loader"]]
-    [:li [:a {:href (rfe/href :city-page)} "city: reuse gltf loader"]]
+    [:li [:a {:href (rfe/href :city-page)} "city: reuse gltf model"]]
     [:li [:a {:href (rfe/href :bird-page)} "birds: gltf with animation"]]
     [:li [:a {:href (rfe/href :refraction-page)} "refraction: use shaders in js file"]]
     [:li [:a {:href (rfe/href :physics-page)} "physics: falling boxes"]]
     [:li [:a {:href (rfe/href :another-camera-control)} "another-camera-control: better than default one, read the docs"]]
-    [:li [:a {:href (rfe/href :transform-control)} "transform control: scale, rotate, translate"]]
-    [:li [:a {:href (rfe/href :cubics)} "cubics: like legos or minecraft"]]
+    [:li [:a {:href (rfe/href :transform-control)} "transform control: scale, rotate, translate on gltf model"]]
+    [:li [:a {:href (rfe/href :cubics)} "cubics: like legos or minecraft, datascript + posh"]]
 
     ;; 
     ]])

@@ -7,5 +7,5 @@
                                          :init-fn cljs-r3f-example.core/init!}}
                       :devtools   {:after-load cljs-r3f-example.core/update!}}}
 
- :dev-http     {3303 {:root    "public"
+ :dev-http     {3000 {:root    "public"
                       :handler user/app}}}
